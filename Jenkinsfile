@@ -8,13 +8,20 @@ pipeline {
       } 
     
     }
+   stage("test"){
+      steps {
+        echo 'tetsing application the application'
+        
+      } 
+    
+    }
    stage("deployment"){
       steps {
         echo 'deploying application the application'
         
       } 
     
-    }
+    } 
   
   }
 
